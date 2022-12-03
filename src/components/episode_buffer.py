@@ -22,7 +22,7 @@ class EpisodeBatch:
         if data is not None:
             self.data = data
         else:
-            self.data = SN()
+            self.data = SN()  # simple object
             self.data.transition_data = {}
             self.data.episode_data = {}
             self._setup_data(self.scheme, self.groups, batch_size, max_seq_length, self.preprocess)

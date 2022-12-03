@@ -31,7 +31,7 @@ class MultinomialActionSelector():
 
 REGISTRY["multinomial"] = MultinomialActionSelector
 
-
+# random
 class EpsilonGreedyActionSelector():
 
     def __init__(self, args):
